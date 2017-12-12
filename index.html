@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tony's Cyrstal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="titlebar">
+        <h1 id="gameTitle">Crystal Collector Game</h1>
+    </div>
+    <div class="instructionalbar col-md-6">
+        <p id="instructionOne">
+            You will be given a random number at the start of the game.
+        </p>
+        <p id="instructionTwo">
+            There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+        </p>
+        <p id="instructionThree">
+            You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+        </p>
+
+        <p id="instructionFour">
+            The value of each crystal is hidden until you click on it.
+        </p>
+        <p id="instructionFive">
+            Each time when the game starts, the value of each crystal will change.
+        </p>
+
+    </div>
+    <div class="col-md-10">
+        <div id="randomNumber col-md-4">
+        </div>
+        <div id="scoreTracking col-md-3">
+        </div>
+    </div>
+    <div id="crystalBox col-md-12">
+        <img class="btn btn-primary" id="crystalOne col-md-3" type="button" src="assets/images/diamond.jpg" />
+        <img class="btn btn-primary" id="crystalTwo col-md-3" type="button" src="assets/images/green.jpg" />
+        <img class=" btn btn-primary " id="crystalThree col-md-3 " type="button" src="assets/images/purple.jpg" />
+        <img class=" btn btn-primary " id="crystaFour col-md-3 " type="button" src="assets/images/ruby.jpg" />
+    </div>
+    <div id=" scoreWords col-md-5 ">Your total score is:
+    </div>
+    <div id="scoreCounter col-md-5 ">Score Counter
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js " integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js " integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ " crossorigin="anonymous "></script>
+</body>
+
+</html>
